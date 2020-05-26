@@ -1,5 +1,14 @@
 # FightClust
-Repository for the creation of a fighter odds matrix, as well as the clustering steps for downstream analysis.
+Repository for the creation of a fighter odds matrix, as well as the clustering steps for downstream analysis. Clustering will be based 
+on the fighters each fighter has won and lost against.
+
+*Roster Selection*
+
+It's probably a good idea to keep the matrix populated by fighters of the same era, or fighting in the same promotions/circuits.
+This ensures that the fights have some relevance to each other. For example, we wouldn't want to include both golden era fighters 
+and modern american fighters, because these people wouldn't be fighting anyone in common. One way to curate a custom list of fighters 
+is using Wikipedia books: https://en.wikipedia.org/wiki/Help:Books#Step-by-step_guide. Select a custom list of fighters, then their
+fight records table can be easily scraped after downloading. 
 
 *Odds Matrix* 
 
